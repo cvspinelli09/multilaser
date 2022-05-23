@@ -1,0 +1,128 @@
+.card-list {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 200px;
+    width: 200px;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffa4;
+    border: 1px solid rgba(53, 139, 238, 0.664);
+    border-radius: 5px;
+    width: 220px;
+    padding: 20px;
+    margin: 5px;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+  }
+  
+  .card-container:hover {
+    border: 2px solid rgb(65, 53, 238);
+  }
+  .card-content-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(184, 180, 180);
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card-title {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    height: 100px;
+  }
+  .card-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
+    border: 1px solid rgb(158, 156, 156);
+    background: rgb(243, 237, 237);
+    font-size: small;
+  }
+  .details-container {
+    padding: 0;
+    margin: 0;
+  }
+  .item {
+    font-weight: 500;
+    font-size: normal;
+  }
+  .cod {
+    color: red;
+    font-weight: 500;
+    height: 20px;
+  }
+  .preços {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    border: 1px solid rgb(151, 143, 143);
+    font-size: small;
+    
+    background-color: rgb(255, 255, 255);
+  }
+  .preços-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid rgb(151, 143, 143);
+    
+    padding: 2px;
+    font-weight: 600;
+    font-size: small;
+  }
+  .item-p {
+    font-weight: 700;
+    font-size: medium;
+  }
+  .button {
+    padding: 10px;
+  }
+  .button-btn {
+    padding: 10px;
+    width: 220px;
+    background-color: rgb(69, 154, 240);
+    border: 1px solid rgba(109, 109, 109, 0.568);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .button-btn:hover {
+    background-color: rgba(11, 109, 207, 0.829);
+  }
+  
+  .button-lam {
+    padding: 10px;
+    width: 220px;
+    background-color: rgb(240, 186, 69);
+    border: 1px solid rgba(109, 109, 109, 0.568);
+    color: rgb(34, 33, 33);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .button-lam:hover {
+    background-color: rgba(207, 145, 11, 0.829);
+  }
