@@ -1,3 +1,4 @@
+import React from 'react';
 import { Component } from 'react';
 import Buscador from './component/Buscador/buscador.component';
 import Scroll from './component/Scroll/scroll.component';
