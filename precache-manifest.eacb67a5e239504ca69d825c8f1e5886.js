@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/multilaser/static/js/runtime~main.658e8f12.js"
   },
   {
-    "revision": "dea66d5441b5e9cbabe93ef807396867",
+    "revision": "e3e4972b1e1f4a51e06adb54c14cd31a",
     "url": "/multilaser/index.html"
   }
 ];

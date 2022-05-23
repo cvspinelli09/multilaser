@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/multilaser/precache-manifest.7d31f7df7894478be7665aedbcf59dc5.js"
+  "/multilaser/precache-manifest.eacb67a5e239504ca69d825c8f1e5886.js"
 );
 
 workbox.clientsClaim();
